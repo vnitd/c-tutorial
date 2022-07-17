@@ -4,4 +4,7 @@
 #include <string.h>
 
 
-
+int menu()
+{
+	printf("1 - Ahihi");
+}
