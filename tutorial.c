@@ -5,6 +5,8 @@
 
 int checkTriangle(double a, double b, double c)
 {
+        //return (a >= b + c) || (b >= a + c) || (c >= a + b);
+	// chị check điều kiện như ni được không?
 	return (a + b > c) && (a + c > b) && (b + c > a);
 }
 
